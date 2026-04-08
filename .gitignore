@@ -1,0 +1,99 @@
+# ============================================================
+# MATLAB
+# ============================================================
+
+# Compiled MEX binaries
+*.mex*
+*.mexw32
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.mexglx
+
+# Auto-saved MATLAB files
+*.asv
+*.m~
+
+# MATLAB temporary files
+*.mlapp.bak
+*.mat.bak
+
+# Simulink generated files
+slprj/
+*.slxc
+
+# MATLAB code generation
+codegen/
+
+# ============================================================
+# Python
+# ============================================================
+
+# Byte-compiled / optimised files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# ============================================================
+# Data & Results (large files – store separately)
+# ============================================================
+
+data/raw/
+data/processed/
+results/
+
+# Common binary data formats
+*.csv.gz
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+
+# ============================================================
+# OS-generated files
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================
+# Editors & IDEs
+# ============================================================
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# ============================================================
+# Miscellaneous
+# ============================================================
+*.log
+*.tmp
+*.bak
